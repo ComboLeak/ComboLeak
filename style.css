@@ -27,6 +27,12 @@ body header img{
     right: 10px;
 }
 
+.pub2{
+    position: absolute;
+    top: 0;
+    left: 10px;
+}
+
 main #container{
     /* glassmorphism */
     box-shadow: 20px 0px 50px rgba(0, 0, 0, 0.5);
@@ -45,6 +51,6 @@ main #container span{
     color: white;
     font-size: 20px;
 
-    margin-left: 30%;
+    margin-left: 25%;
     margin-right: 50%;
 }
