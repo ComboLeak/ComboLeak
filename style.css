@@ -33,6 +33,30 @@ body header img{
     left: 10px;
 }
 
+.barre{
+    /* glassmorphism */
+    box-shadow: 20px 0px 50px rgba(0, 0, 0, 100);
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+    padding: 20px;
+}
+
+.barre h2{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+.barre h2{
+    cursor: grab;
+}
+
 main #container{
     /* glassmorphism */
     box-shadow: 20px 0px 50px rgba(0, 0, 0, 0.5);
