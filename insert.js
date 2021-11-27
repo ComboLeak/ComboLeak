@@ -13572,7 +13572,7 @@ liste2 = ["louderd1@aggienetwork.com:TiaPita7 ",
 "stacyrene.davis3@gmail.com:Stacy187 ",
 "rhoadsie08@gmail.com:gordie59 ",
 "ksabik88@gmail.com:alygatr1 ",
-"lowrie_heather@hotmail.com:Aydajayne15 ",]
+"lowrie_heather@hotmail.com:Aydajayne15 "]
 
 for(let i=0; i<liste2.length; i++){
     document.getElementById("container").innerHTML += "<span>" + liste2[i] + "</span><br><br>"
