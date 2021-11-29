@@ -19,4 +19,37 @@
         margin-left: 10%;
         margin-right: 0;
     }
+
+
+    /* popup */
+
+    .popup .head .close{
+        height: 5%;
+    }
+
+    .popup .head .dynamite{
+        height: 5%;
+    }
+
+    .popup .head p{
+        font-size: 25px;
+    }
+
+
+    /* texte */
+    .popup .box{
+        padding: 3px;
+    }
+
+    .popup .box .image_box{
+        height: 60px;
+    }
+
+    .popup h1{
+        font-size: 15px;
+    }
+
+    .popup p{
+        font-size: 14px;
+    }
 }
