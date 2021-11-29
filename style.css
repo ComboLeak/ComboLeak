@@ -83,3 +83,97 @@ main #container span{
 
     margin-left: 25%;
 }
+
+
+
+
+/* popup */
+
+@keyframes pop{
+    from{
+        transform: scale(0.5);
+    }
+
+    to{
+        transform: scale(1);
+    }
+}
+
+.popup{
+    z-index: 2;
+    position: fixed;
+    width: 70%;
+    left: 15%;
+    top: 10%;
+    background-color: rgba(43, 16, 70, 0.95);
+    border-radius: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: 20px 20px 20px 20px rgba(0, 0, 0, 0.5);
+    display: unset;
+
+    animation-name: pop;
+    animation-duration: 1s;
+}
+
+.popup .head{
+    background-color: rgba(79, 21, 133, 0.95);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.popup .head .close{
+    position: absolute;
+    top: 1%;
+    right: 1%;
+    height: 10%;
+    cursor: grab;
+}
+
+.popup .head .dynamite{
+    position: absolute;
+    top: 1%;
+    left: 1%;
+    height: 10%;
+}
+
+.popup .head p{
+    padding: 15px;
+    font-size: 30px;
+}
+
+
+
+/* texte */
+.popup .box{
+    padding: 20px;
+}
+
+.popup .box .image_box{
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.popup .box img{
+    height: 100%;
+}
+
+.popup h1{
+    color: white;
+    text-align: center;
+    margin: 10px;
+    font-size: 25px;
+}
+
+.popup p{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.popup p a{
+    text-decoration: none;
+    color: white;
+    text-decoration: underline;
+    font-weight: bold;
+}
